@@ -8,10 +8,10 @@ body {
 }
 
 .button {
-background-color: #00000;
+background-color: #000000;
     border-style: solid;
-    border: 3px;
     border-color:coral;
+    border: 3px;
     padding: 5px;
     color: white;
     text-align: center;
