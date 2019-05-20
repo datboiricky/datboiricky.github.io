@@ -15,7 +15,7 @@ body, html {
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -43,7 +43,7 @@ body, html {
 /* Fourth image (Career) */
 .bgimg-4 {
   background-image: url("https://www.cs.siu.edu/_common/images/feature/labs/lab_lindegren18.jpg");
-  min-height: 600px;
+  min-height: 100%;
 }
 
 .w3-wide {letter-spacing: 10px;}
@@ -51,7 +51,7 @@ body, html {
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     background-attachment: scroll;
 ;  }
 }
@@ -68,7 +68,7 @@ body, html {
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-    <a href="#career" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-building-o"></i> CAREER</a>
+    <a href="#career" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-building-o"></i> CS CAREER</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
     </a>
@@ -79,6 +79,7 @@ body, html {
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#career" class=["w3-bar-item w3-button" onclick="toggleFunction()">CS CAREER</a>
     <a href="#" class="w3-bar-item w3-button">SEARCH</a>
   </div>
 </div>
@@ -230,7 +231,7 @@ body, html {
 <!-- Fourth Parallax Image with Career Text -->
 <div class="bgimg-4 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">CAREER</span>
+    <span class="w3-xxlarge w3-text-white w3-wide"> CS CAREER</span>
     </div>
   </div>
 
